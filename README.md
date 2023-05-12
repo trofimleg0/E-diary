@@ -49,7 +49,6 @@ remove_chastisements('Фролов Иван Григорьевич')
 
 The script praises the student, randomly choosing praise from the prepared list.  
 Input data: Student's full name and subject. Example:
-Пример использования скрипта:
 ```
 create_commendation('Фролов Иван Григорьевич', 'Математика')
 ```
