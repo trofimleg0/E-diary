@@ -33,23 +33,24 @@ python3 manage.py shell
 
 ## Description of scripts ##
 
-**fix_marks**
+**fix_marks()**
 
 The script corrects all the student's bad grades. Example:
 ```
 fix_marks('Фролов Иван Григорьевич')
 ```
 
-**remove_chastisements**
+**remove_chastisements()**
 
 The script deletes all the student's comments.Example:
 ```
 remove_chastisements('Фролов Иван Григорьевич')
 ```
 
+**create_commendation()**
+
 The script praises the student, randomly choosing praise from the prepared list.  
 Input data: Student's full name and subject. Example:
-Пример использования скрипта:
 ```
 create_commendation('Фролов Иван Григорьевич', 'Математика')
 ```
